@@ -1,0 +1,387 @@
+.navybar-container {
+    color: white;
+    display: flex;
+    background-color: gray;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    font-size: 1.5rem;
+    z-index: 9999;
+    padding-top: 5px;
+    margin-left: 0;
+    font-family: 'Yantramanav', sans-serif;
+    font-family: 'Kumar One Outline', cursive;
+    justify-content: space-around;
+}
+
+.big-container {
+  width: 100%;
+  background-color: white;
+  margin-top: 5vw;
+}
+
+
+.heading {
+    width: auto;
+    height: auto;
+    margin: 0;
+    border: 0;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  margin-bottom: -20px;
+  font-size: 2rem;
+}
+
+#tokyo {
+  font-family: 'Unica One', cursive;
+  font-size: 85px;
+}
+
+#texas {
+  color: Brown;
+  font-family: 'Passion One', cursive;
+  font-size: 90px;
+
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  line-height: 60px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+
+  color: Brown;
+
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+
+  color: Brown;
+}
+
+
+.article-container {
+  border-top: 1px solid black;
+  border-bottom: 1px solid gray;
+  display: flex;
+  padding-right: 6vw;
+  padding-left: 6vw;
+  height: 100vw;
+}
+
+.left-image {
+  flex: 1;
+  overflow: scroll;
+  padding-top: 4vw;
+}
+
+.image-holder-left {
+  padding-right: 12vw;
+}
+
+.caption-left {
+  float: left;
+  padding-right: 12vw;
+  font-family: 'Merriweather', serif;
+  font-family: 'Noto Serif JP', serif;
+  font-family: 'Raleway', sans-serif;
+
+  font-size: 15px;
+  line-height: 24px;
+  color: Brown;
+}
+
+.image-holder-right {
+  padding-right: 5vw;
+  padding-left: 7vw;
+  float: right;
+  margin-top: 5vw;
+}
+
+
+.caption-right {
+  float: right;
+  padding-right: 5vw;
+  padding-left: 7vw;
+  margin-bottom: 6vw;
+  font-family: 'Merriweather', serif;
+  font-family: 'Noto Serif JP', serif;
+  font-family: 'Raleway', sans-serif;
+
+  font-size: 15px;
+  line-height: 24px;
+  color: Brown;
+}
+
+
+.right-text {
+  flex: 1;
+  padding-left: 5vw;
+  padding-top: 2vw;
+  border-left: 1px solid gray;
+  overflow: scroll;
+}
+
+.body-text {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: 'Merriweather', serif;
+  font-family: 'Noto Serif JP', serif;
+}
+
+.caption {
+  margin-bottom: 8vw;
+  font-family: 'Merriweather', serif;
+  font-family: 'Noto Serif JP', serif;
+  font-family: 'Raleway', sans-serif;
+
+  font-size: 19px;
+  line-height: 30px;
+  color: Brown;
+  border-bottom: 1px solid Brown;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.article-container2 {
+
+  color: black;
+  font-family: 'Noto Serif JP', serif;
+
+  font-size: 16px;
+  line-height: 32px;
+  padding-right: 5vw;
+  padding-left: 5vw;
+  padding-bottom: 20px;
+
+}
+
+.image-and-caption2 {
+  padding-top: 50px;
+}
+
+.restaurant-list{
+  width: 100vw;
+  font-size: 16px;
+  line-height: 30px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: gray;
+  text-align: center;
+}
+
+
+#quote {
+  font-size: 30px;
+  line-height: 43px;
+font-family: 'Yantramanav', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Noto Serif JP', serif;
+text-indent: -12px;
+}
+
+#footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  font-size: 3rem;
+  z-index: 8888;
+  border-bottom: 1px solid black;
+}
+
+
+
+#quote2 {
+  font-size: 26px;
+  line-height: 38px;
+font-family: 'Yantramanav', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Noto Serif JP', serif;
+text-indent: -10px;
+}
+
+@media screen and (min-width: 769px) {
+  .article-container2 {
+    display: none;
+  }
+}
+
+@media (max-width: 769px) {
+  .article-container {
+    display: none;
+  }
+  .heading {
+
+      border: 0;
+      padding-right: 2vw;
+      padding-left: 2vw;
+
+  }
+
+h1 {
+    font-family: 'Scope One', serif;
+    font-size: 5rem;
+    text-align: center;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    line-height: 30px;
+    margin-top: 10vw;
+  }
+
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 80px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .caption {
+    margin-bottom: 8vw;
+    font-family: 'Merriweather', serif;
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Raleway', sans-serif;
+
+    font-size: 15px;
+    line-height: 25px;
+    color: Brown;
+    border-bottom: 1px solid Brown;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .restaurant-list{
+    width: 100vw;
+    font-size: 12px;
+    line-height: 23px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: gray;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 376px) {
+  .article-container {
+    display: none;
+  }
+
+  .heading {
+      border: 0;
+      padding-top: 25px;
+  }
+
+  h1 {
+    text-align: center;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    margin-bottom: -20px;
+  }
+
+  #tokyo {
+    font-family: 'Unica One', cursive;
+    font-size: 3rem;
+  }
+
+  #texas {
+    color: Brown;
+    font-family: 'Passion One', cursive;
+    font-size: 3rem;
+
+
+  }
+
+
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+
+  }
+
+  h3 {
+
+    color: Brown;
+
+  }
+
+  h4 {
+
+    color: Brown;
+  }
+
+  #quote2 {
+
+    font-size: 20px;
+    line-height: 32px;
+
+  font-family: 'Noto Serif JP', serif;
+  text-indent: -10px;
+  padding-left: 0;
+  padding-right: 0;
+
+  }
+
+
+  .article-container2 {
+    font-size: 15px;
+    line-height: 28px;
+    color: black;
+
+
+    font-family: 'Noto Serif JP', serif;
+    padding-left: 5vw;
+    padding-right: 5vw;
+
+  }
+
+  .caption {
+    margin-bottom: 6vw;
+    font-family: 'Raleway', sans-serif;
+
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    color: Brown;
+    border-bottom: 1px solid Brown;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .restaurant-list{
+    width: 100vw;
+    font-size: 12px;
+    line-height: 24px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: gray;
+    text-align: center;
+  }
+
+}
